@@ -3,270 +3,473 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ataberk Yayla - Portfolio</title>
+    <title>Ataberk Yayla - Software Engineering Student | Full-Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Navigation -->
 <nav class="navbar">
     <div class="container">
-        <div class="nav-brand">AY</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-brand">Ataberk Yayla</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </nav>
 
-<section class="hero">
+<!-- Hero Section -->
+<section id="home" class="hero">
     <div class="container">
         <div class="hero-content">
-            <div class="hero-avatar">AY</div>
-            <h1 class="hero-title">Ataberk Yayla</h1>
-            <p class="hero-subtitle">Software Engineering Student & Full-Stack Developer</p>
+            <div class="hero-tag">SOFTWARE ENGINEERING STUDENT</div>
+            <h1 class="hero-title">
+                <span class="hero-name">Ataberk Yayla</span>
+                <span class="hero-subtitle">Full-Stack Developer | Digital Marketing Expert</span>
+            </h1>
             <p class="hero-description">
-                Software Engineering student at Izmir University of Economics with professional experience
-                delivering end-to-end web solutions for corporate clients. Specializing in Full-Stack development
-                using React, Node.js, and PostgreSQL, with a unique ability to leverage digital marketing insights
-                to build high-conversion, user-centric platforms.
+                Software Engineering student at Izmir University of Economics with professional
+                experience delivering end-to-end web solutions for corporate clients. Specializing
+                in Full-Stack development using React, Node.js, and PostgreSQL, with a unique ability
+                to leverage digital marketing insights to build high-conversion, user-centric platforms.
             </p>
-            <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary">About</a>
-                <a href="#projects" class="btn btn-secondary">Projects</a>
-                <a href="#skills" class="btn btn-secondary">Skills</a>
-                <a href="#contact" class="btn btn-secondary">Contact</a>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">3+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">10+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">1+</div>
+                    <div class="stat-label">Year Experience</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="tech-icon">React</div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="tech-icon">Node.js</div>
+            </div>
+            <div class="floating-card card-3">
+                <div class="tech-icon">PostgreSQL</div>
+            </div>
+            <div class="floating-card card-4">
+                <div class="tech-icon">Flutter</div>
+            </div>
+            <div class="floating-card card-5">
+                <div class="tech-icon">Python</div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- About Section -->
 <section id="about" class="about">
     <div class="container">
-        <h2 class="section-title">About Me</h2>
+        <div class="section-header">
+            <span class="section-tag">GET TO KNOW ME</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    I'm a <strong>Software Engineering student</strong> at İzmir University of Economics,
+                    specializing in <strong>Full-Stack development</strong> with React, Node.js, and PostgreSQL.
+                </p>
+                <p>
+                    I focus on building scalable, user-friendly applications with strong backend integration
+                    and clean UI/UX design. Currently architecting 'Builty', an automated website generation
+                    engine, while working as a <strong>Digital Marketing Executive & Web Developer</strong>
+                    at Bisasoft Dijital Reklam Ajansı.
+                </p>
+                <p>
+                    Passionate about writing clean, scalable, and impactful code. Leveraging digital marketing
+                    insights to build <strong>high-conversion, user-centric platforms</strong> while maintaining
+                    a relentless focus on practical software engineering and continuous learning.
+                </p>
 
-        <div class="about-grid">
-            <div class="about-card">
-                <h3>Education</h3>
-                <div class="education-item">
-                    <h4>Bachelor's Degree in Software Engineering</h4>
-                    <p class="edu-year">2021 - Present</p>
-                    <p class="edu-school">İzmir University of Economics</p>
-                </div>
-                <div class="education-item">
-                    <h4>High School</h4>
-                    <p class="edu-year">2016 - 2020</p>
-                    <p class="edu-school">Göztepe İhsan Kurşunoğlu Anadolu Lisesi</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🎓</div>
+                        <div>
+                            <div class="highlight-title">Education</div>
+                            <div class="highlight-desc">Software Engineering @ İzmir University of Economics (2021 - Present)</div>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🌍</div>
+                        <div>
+                            <div class="highlight-title">Languages</div>
+                            <div class="highlight-desc">Turkish (Native), English (B1), German (A2)</div>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🎯</div>
+                        <div>
+                            <div class="highlight-title">Current Focus</div>
+                            <div class="highlight-desc">Full-Stack Web Automation, React & Node.js, Digital Marketing Integration</div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="about-card">
-                <h3>Work Experience</h3>
-                <div class="work-item">
-                    <h4>Digital Marketing Executive & Web Developer</h4>
-                    <p class="work-year">July 2024 - Present</p>
-                    <p class="work-company">Bisasoft Dijital Reklam Ajansı</p>
-                    <p class="work-desc">
-                        Driving corporate lead generation and e-commerce growth via Meta/Google Ads,
-                        utilizing GTM and GA4 for data-driven performance tracking. Developing responsive
-                        React and Node.js web applications for corporate clients.
-                    </p>
-                </div>
-            </div>
-
-            <div class="about-card">
-                <h3>Soft Skills</h3>
-                <ul class="soft-skills">
-                    <li>Solution-Focused Analytical Thinking</li>
-                    <li>Technical Communication & Customer Management</li>
-                    <li>Cross-Functional Collaboration</li>
-                    <li>Self-Management & Prioritization</li>
-                    <li>Proactive Learning</li>
-                </ul>
-            </div>
-
-            <div class="about-card">
-                <h3>Languages</h3>
-                <ul class="languages">
-                    <li><strong>Turkish:</strong> Native</li>
-                    <li><strong>English:</strong> B1</li>
-                    <li><strong>German:</strong> A2</li>
-                </ul>
+            <div class="about-skills-grid">
+                <div class="soft-skill">Solution-Focused Thinking</div>
+                <div class="soft-skill">Technical Communication</div>
+                <div class="soft-skill">Cross-Functional Collaboration</div>
+                <div class="soft-skill">Self-Management</div>
+                <div class="soft-skill">Proactive Learning</div>
+                <div class="soft-skill">Customer Management</div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Projects Section -->
 <section id="projects" class="projects">
     <div class="container">
-        <h2 class="section-title">Projects</h2>
-
-        <div class="project-card">
-            <div class="project-image">
-                <div class="project-placeholder">Builty</div>
-            </div>
-            <div class="project-content">
-                <h3>Builty (In Progress)</h3>
-                <p class="project-description">
-                    Developing a full-stack automation platform designed to streamline corporate website
-                    development by transforming dynamic templates into production-ready React applications.
-                    Architecting a scalable Node.js and PostgreSQL backend to handle complex data structures
-                    and automate the deployment pipeline for high-conversion corporate sites.
-                </p>
-                <div class="project-tags">
-                    <span class="tag">React</span>
-                    <span class="tag">Node.js</span>
-                    <span class="tag">PostgreSQL</span>
-                    <span class="tag">Express.js</span>
-                </div>
-                <div class="project-type">Full-Stack Web Automation Engine</div>
-            </div>
+        <div class="section-header">
+            <span class="section-tag">WHAT I'VE BUILT</span>
+            <h2 class="section-title">Featured Projects</h2>
         </div>
 
-        <div class="project-card">
-            <div class="project-image">
-                <div class="project-placeholder">CubeSat</div>
-            </div>
-            <div class="project-content">
-                <h3>Atmospheric Health Risk Prediction CubeSat</h3>
-                <p class="project-description">
-                    A Python-based software architecture that predicts respiratory health risks by processing
-                    atmospheric sensor data and generating real-time risk assessments using machine learning
-                    models deployed on Raspberry Pi.
-                </p>
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Raspberry Pi</span>
-                    <span class="tag">Scikit-learn</span>
-                    <span class="tag">Pandas</span>
+        <div class="projects-grid">
+            <!-- Builty Project -->
+            <article class="project-card featured">
+                <div class="project-image">
+                    <div class="project-placeholder builty-bg">
+                        <div class="project-icon">🚀</div>
+                    </div>
                 </div>
-                <div class="project-type">Multidisciplinary Engineering Project</div>
-            </div>
-        </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Builty</h3>
+                        <span class="project-badge">In Progress</span>
+                    </div>
+                    <p class="project-category">Full-Stack Web Automation Engine</p>
+                    <p class="project-description">
+                        Developing a full-stack automation platform designed to streamline corporate website
+                        development by transforming dynamic templates into production-ready React applications.
+                        Architecting a scalable Node.js and PostgreSQL backend to handle complex data structures
+                        and automate the deployment pipeline for high-conversion corporate sites.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Express.js</span>
+                    </div>
+                </div>
+            </article>
 
-        <div class="project-card">
-            <div class="project-image">
-                <div class="project-placeholder">Echo News</div>
-            </div>
-            <div class="project-content">
-                <h3>Echo News</h3>
-                <p class="project-description">
-                    A mobile application that delivers up-to-date news from multiple sources in a clean interface.
-                    It enables easy navigation through categories and enhances content discovery.
-                </p>
-                <div class="project-tags">
-                    <span class="tag">Flutter</span>
-                    <span class="tag">Firebase</span>
-                    <span class="tag">REST API</span>
+            <!-- CubeSat Project -->
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder cubesat-bg">
+                        <div class="project-icon">🛰️</div>
+                    </div>
                 </div>
-                <div class="project-links">
-                    <a href="https://github.com/AtaberkYayla" target="_blank" class="project-link">GitHub</a>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Atmospheric Health Risk Prediction CubeSat</h3>
+                    </div>
+                    <p class="project-category">Multidisciplinary Engineering Project</p>
+                    <p class="project-description">
+                        A Python-based software architecture that predicts respiratory health risks by processing
+                        atmospheric sensor data and generating real-time risk assessments using machine learning
+                        models deployed on Raspberry Pi. Software simulation for CubeSat satellite systems.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Raspberry Pi</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Data Simulation</span>
+                    </div>
                 </div>
-                <div class="project-type">Mobile Application Development</div>
-            </div>
+            </article>
+
+            <!-- Echo News Project -->
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder echonews-bg">
+                        <div class="project-icon">📰</div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Echo News</h3>
+                    </div>
+                    <p class="project-category">Mobile Application Development</p>
+                    <p class="project-description">
+                        A mobile application that delivers up-to-date news from multiple sources in a clean
+                        interface. It enables easy navigation through categories and enhances content discovery
+                        with an intuitive user experience. Built with Flutter for cross-platform compatibility.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">Dart</span>
+                    </div>
+                </div>
+            </article>
         </div>
     </div>
 </section>
 
+<!-- Skills Section -->
 <section id="skills" class="skills">
     <div class="container">
-        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="section-header">
+            <span class="section-tag">MY EXPERTISE</span>
+            <h2 class="section-title">Skills & Technologies</h2>
+        </div>
 
-        <div class="skills-grid">
+        <div class="skills-categories">
+            <!-- Frontend & Mobile -->
             <div class="skill-category">
-                <h3>Frontend & Mobile</h3>
-                <ul>
-                    <li>React</li>
-                    <li>HTML, CSS</li>
-                    <li>Dart, Flutter</li>
-                    <li>Figma, UI/UX Designing</li>
-                </ul>
+                <h3 class="category-title">Frontend & Mobile</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name">React</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">HTML & CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Flutter / Dart</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">UI/UX Design (Figma)</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- Programming Languages -->
             <div class="skill-category">
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>C#, .NET</li>
-                </ul>
+                <h3 class="category-title">Programming Languages</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Java</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">C# / .NET</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- Backend & Database -->
             <div class="skill-category">
-                <h3>Backend & Database</h3>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Firebase (Cloud Firestore)</li>
-                    <li>PostgreSQL</li>
-                    <li>MySQL</li>
-                </ul>
+                <h3 class="category-title">Backend & Database</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">PostgreSQL</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">MySQL</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Firebase</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- Tools & Marketing -->
             <div class="skill-category">
-                <h3>Tools & Methodologies</h3>
-                <ul>
-                    <li>Git, GitHub</li>
-                    <li>RESTful API Design</li>
-                    <li>Web Scraping</li>
-                    <li>Agile/Scrum Principles</li>
-                </ul>
-            </div>
-
-            <div class="skill-category">
-                <h3>Technical Marketing</h3>
-                <ul>
-                    <li>Google Tag Manager (GTM)</li>
-                    <li>GA4 (Setup & Event Tracking)</li>
-                    <li>Meta Ads Management</li>
-                    <li>Google Ads Management</li>
-                </ul>
+                <h3 class="category-title">Tools & Digital Marketing</h3>
+                <div class="tech-grid">
+                    <div class="tech-badge">Git & GitHub</div>
+                    <div class="tech-badge">RESTful API Design</div>
+                    <div class="tech-badge">Google Tag Manager</div>
+                    <div class="tech-badge">GA4 Analytics</div>
+                    <div class="tech-badge">Meta Ads</div>
+                    <div class="tech-badge">Google Ads</div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Experience Section -->
+<section id="experience" class="learning">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">WORK EXPERIENCE</span>
+            <h2 class="section-title">Professional Journey</h2>
+        </div>
+
+        <div class="learning-grid">
+            <div class="learning-card">
+                <div class="learning-icon">💼</div>
+                <h3 class="learning-title">Digital Marketing Executive & Web Developer</h3>
+                <p class="learning-desc">Bisasoft Dijital Reklam Ajansı | July 2024 - Present</p>
+                <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.9rem;">
+                    Driving corporate lead generation and e-commerce growth via Meta/Google Ads,
+                    utilizing GTM and GA4 for data-driven performance tracking. Developing responsive
+                    React and Node.js web applications for corporate clients.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
 <section id="contact" class="contact">
     <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-header">
+            <span class="section-tag">LET'S CONNECT</span>
+            <h2 class="section-title">Get in Touch</h2>
+        </div>
 
-        <div class="contact-grid">
-            <a href="mailto:ata1903berk@gmail.com" class="contact-card">
-                <h3>Email</h3>
-                <p>ata1903berk@gmail.com</p>
-            </a>
-
-            <a href="https://linkedin.com/in/-ataberkyayla" target="_blank" class="contact-card">
-                <h3>LinkedIn</h3>
-                <p>linkedin.com/in/-ataberkyayla</p>
-            </a>
-
-            <a href="https://github.com/AtaberkYayla" target="_blank" class="contact-card">
-                <h3>GitHub</h3>
-                <p>github.com/AtaberkYayla</p>
-            </a>
-
-            <a href="https://ataberkyayla.github.io/" target="_blank" class="contact-card">
-                <h3>Website</h3>
-                <p>ataberkyayla.github.io</p>
-            </a>
-
-            <div class="contact-card">
-                <h3>Phone</h3>
-                <p>+90 534 939 63 10</p>
+        <div class="contact-content">
+            <div class="contact-text">
+                <p>
+                    I'm always interested in collaborating on innovative web projects,
+                    especially those involving full-stack development or digital marketing integration.
+                    Feel free to reach out!
+                </p>
             </div>
 
-            <div class="contact-card">
-                <h3>Location</h3>
-                <p>Konak, İzmir</p>
+            <div class="contact-links">
+                <a href="mailto:ata1903berk@gmail.com" class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">ata1903berk@gmail.com</div>
+                    </div>
+                </a>
+
+                <a href="https://linkedin.com/in/-ataberkyayla" target="_blank" class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-details">
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value">linkedin.com/in/-ataberkyayla</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/AtaberkYayla" target="_blank" class="contact-card">
+                    <div class="contact-icon">💻</div>
+                    <div class="contact-details">
+                        <div class="contact-label">GitHub</div>
+                        <div class="contact-value">github.com/AtaberkYayla</div>
+                    </div>
+                </a>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <div class="contact-label">Location</div>
+                        <div class="contact-value">Konak, İzmir</div>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-details">
+                        <div class="contact-label">Phone</div>
+                        <div class="contact-value">+90 534 939 63 10</div>
+                    </div>
+                </div>
+
+                <a href="https://ataberkyayla.github.io/" target="_blank" class="contact-card">
+                    <div class="contact-icon">🌐</div>
+                    <div class="contact-details">
+                        <div class="contact-label">Website</div>
+                        <div class="contact-value">ataberkyayla.github.io</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 </section>
 
-<footer>
+<!-- Footer -->
+<footer class="footer">
     <div class="container">
-        <p>&copy; 2025 Ataberk Yayla. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">Ataberk Yayla</div>
+                <p>Building scalable, user-centric web solutions. Bridging complex system architecture with seamless user experiences.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ataberk Yayla. All rights reserved.</p>
+        </div>
     </div>
 </footer>
 
